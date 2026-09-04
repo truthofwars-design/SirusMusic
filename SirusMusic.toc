@@ -1,0 +1,18 @@
+## Interface: 30300
+## Title: |cff4fc3f7Sirus|rMusic
+## Notes: Плеер игровой музыки: поиск, категории, фильтры, избранное.|nОткрыть - кнопка на миникарте или /smp
+## Author: МиссОхота
+## Version: 1.0
+## X-Category: Audio & Video
+## X-License: MIT
+## X-Website: https://github.com/truthofwars-design/SirusMusic
+## X-Realm: Sirus
+## X-Sirus-Category: 3
+## X-Sirus-Update: https://github.com/truthofwars-design/SirusMusic/tree/master
+## OptionalDeps: SirusMinimap, LibDataBroker-1.1, LibDBIcon-1.0
+## SavedVariables: SirusMusicDB
+## DefaultState: enabled
+Locale.lua
+Tracks.lua
+Core.lua
+UI.lua
