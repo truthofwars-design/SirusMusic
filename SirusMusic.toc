@@ -2,7 +2,7 @@
 ## Title: |cff4fc3f7Sirus|rMusic
 ## Notes: Плеер игровой музыки: поиск, категории, фильтры, избранное.|nОткрыть - кнопка на миникарте или /smp
 ## Author: МиссОхота
-## Version: 1.0
+## Version: 1.1
 ## X-Category: Audio & Video
 ## X-License: MIT
 ## X-Website: https://github.com/truthofwars-design/SirusMusic

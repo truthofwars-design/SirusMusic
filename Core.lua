@@ -1,7 +1,7 @@
 SirusMusicNS = SirusMusicNS or {}
 local NS = SirusMusicNS
 
-NS.VERSION = "1.0"
+NS.VERSION = "1.1"
 local PREFIX = "|cff4fc3f7SirusMusic|r: "
 
 local DEFAULTS = {
@@ -1125,7 +1125,14 @@ loader:SetScript("OnEvent", function(_, event, arg1)
         end
         prepareDatabase()
         validateSettings()
-        math.randomseed(time())
+		
+        if math.randomseed then
+            math.randomseed(time())
+        else
+            -- randomseed нет в клиенте: прокручиваем генератор, чтобы
+            -- сессии не начинались с одной и той же последовательности
+            for i = 1, time() % 97 do math.random() end
+        end
 
         for _, dead in ipairs({ "combatPause", "combatGuard", "guardDelay",
                                 "guardProbe", "guardStep", "guardRev" }) do

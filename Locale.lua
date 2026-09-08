@@ -27,13 +27,19 @@ NS.FAC = {
     N   = "Нейтральные",
 }
 
-NS.EXP_ORDER = { "all", "C", "BC", "WLK", "S" }
+NS.EXP_ORDER = { "all", "C", "BC", "WLK", "CATA", "MOP", "WOD", "LGN", "BFA", "SL", "S" }
 NS.EXP = {
-    all = "Все дополнения",
-    C   = "Classic",
-    BC  = "Burning Crusade",
-    WLK = "Wrath of the Lich King",
-    S   = "Sirus",
+    all  = "Все дополнения",
+    C    = "Classic",
+    BC   = "Burning Crusade",
+    WLK  = "Wrath of the Lich King",
+    CATA = "Cataclysm",
+    MOP  = "Mists of Pandaria",
+    WOD  = "Warlords of Draenor",
+    LGN  = "Legion",
+    BFA  = "Battle for Azeroth",
+    SL   = "Shadowlands",
+    S    = "Sirus",
 }
 
 NS.REPEAT = { off = "Повтор: выкл", list = "Повтор: список", one = "Повтор: трек" }
